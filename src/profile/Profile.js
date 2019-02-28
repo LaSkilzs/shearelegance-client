@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileAppointment from "./ProfileAppointment";
 import ProfileHairCard from "./ProfileHairCard";
-import Header from "./header";
+import Header from "./Header";
 
 class Profile extends React.Component {
   render() {
