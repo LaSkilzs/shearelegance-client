@@ -1,6 +1,6 @@
 import React from "react";
-import GalleryCard from "./ProfileAppointment";
-import GalleryList from "./ProfileHairCard";
+import GalleryCard from "./GalleryCard";
+import GalleryList from "./GalleryList";
 import Header from "./Header";
 
 class Gallery extends React.Component {
@@ -8,9 +8,9 @@ class Gallery extends React.Component {
     return (
       <div>
         <h1>Gallery here</h1>
-        <Header />
-        <GalleryList />
-        <GalleryCard />
+          <Header />
+          <GalleryList />
+          <GalleryCard />
       </div>
     );
   }
